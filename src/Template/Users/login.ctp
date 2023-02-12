@@ -6,9 +6,11 @@
             <?= $this->Form->create() ?>
             <?= $this->Form->input('username',['class'=>'form-control']) ?>
             <?= $this->Form->input('password',['class'=>'form-control']) ?>
-            <?= $this->Form->button('Submit',['class'=>'btn btn-success ']) ?>
-
+            <?= $this->Form->button('Login',['class'=>'btn btn-success ']) ?>
+            <?= $this->Html->link(__('Register'), ['action' => 'register'],['class'=>'btn btn-primary ']) ?>
             <?= $this->Form->end() ?>
+           
+          
        </div> 
    </div>
 </div>
